@@ -1,7 +1,7 @@
-@import "test.scss";
-.test{
-    h1{
-        color: #bababa;
-    }
-    
+@import "variables";
+@import "general";
+@import "buttons";
+body{
+    font-family: Tahoma, Geneva, sans-serif!important;
 }
+

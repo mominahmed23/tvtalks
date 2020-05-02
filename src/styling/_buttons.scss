@@ -1,0 +1,15 @@
+.btn-login{
+    background-color: $defaultGreen;
+    color: $superWhite;   
+}
+.btn-login-inverse{
+    background-color: $superWhite;
+    color: $defaultGreen;   
+}
+.btn{
+    font-size: $fontMd;
+    padding: 4px 15px;
+    &:hover{
+        background-color: $defaultGrey;
+    }
+}
