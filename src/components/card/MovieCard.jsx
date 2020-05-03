@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 
 export class MovieCard extends Component {
     render() {
-        let url = this.props.item
+        const {itemData} = this.props;
         return (
             <div className="movie-card h-100 px-1 pt-1 pb-2">
-                                    <div className="movie-poster" style={{backgroundImage:`url(${this.props.itemData.image})`}}></div>
+                                    <div className="movie-poster" style={{backgroundImage:`url(${itemData.image})`}}></div>
                                     <div className="movie-title my-2">Game of Throne</div>
                                     <div className="movie-run">2015-2019</div>
                                     <div className="mt-1 rating d-flex justify-content-end align-items-end">
