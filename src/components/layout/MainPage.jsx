@@ -12,17 +12,17 @@ export class MainPage extends Component {
         return (
             <main>
                  <MyNav/>
-                 <div className="main-banner mb-4 default-shadow" style={{backgroundImage: "url("+mainBanner+")"}}>
+                 <div className="main-banner mb-3 default-shadow" style={{backgroundImage: "url("+mainBanner+")"}}>
                      
                  </div>
-                 <Container fluid>
+                 <Container fluid className="pb-3">
                 <Row>
-                 <Col md={12} lg={9} xl={10} className="px-1">
+                 <Col md={12} lg={9} xl={10}>
                 <CardsView/>
                  </Col>
                  <Col md={12} lg={3} xl={2} className="pr-0">
                  <div className="my-sidebar h-100">
-                     <LoginBox/>
+                    <LoginBox/>
                  </div>
                  </Col>
                 </Row>

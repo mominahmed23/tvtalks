@@ -1,10 +1,10 @@
 .cards-wrap{
-    border: 2px solid $defaultGrey;
+    height: 380px;
+
 }
 .movie-card{
     background-color: $lightGrey;
     border: 2px solid $defaultGrey;
-    height: 300px;
     .movie-poster{
         height: 145px;
         background-size: cover;
