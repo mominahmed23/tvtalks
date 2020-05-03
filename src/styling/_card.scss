@@ -1,0 +1,34 @@
+.cards-wrap{
+    border: 2px solid $defaultGrey;
+}
+.movie-card{
+    background-color: $lightGrey;
+    border: 2px solid $defaultGrey;
+    height: 300px;
+    .movie-poster{
+        height: 145px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat; 
+    }
+    .movie-title{
+        font-size: $fontLg;
+        line-height: $fontLg;
+        color: $mattBlack;
+    }
+    .movie-run{
+        font-size: $fontMd;
+        color: $defaultGreen;
+    }
+    .rating{
+        .label{
+            font-size: $fontMd;
+            color: $mattBlack;
+        }
+        .rating-badge{
+            background-color: $defaultGreen;
+            color: $superWhite;
+            font-size: $fontMd;
+        }
+    }
+}
