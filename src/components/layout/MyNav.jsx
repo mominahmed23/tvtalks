@@ -10,8 +10,8 @@ export class MyNav extends Component {
                        <img src={defaultLogo} width="85" className="img-fluid" alt="TVtalks"/>
                    </div>
                    <div className="btn-wrap">
-                       <button className="btn btn-login radius-default mr-3">Log in</button>
-                       <button className="btn radius-default">Sign up</button>
+                       <button className="btn btn-login default-radius mr-3">Log in</button>
+                       <button className="btn default-radius">Sign up</button>
                    </div>
                </div>
            </nav>

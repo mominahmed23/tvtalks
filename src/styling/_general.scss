@@ -1,4 +1,4 @@
-.radius-default{
+.default-radius{
     border-radius: 7px;
 }
 
@@ -33,15 +33,15 @@ a{
 }
 
 footer{
-    background-color: $defaultBlue;
+    background-color: $defaultGreen;
 }
 
 .my-sidebar{
-    background-color: $lightGrey;
+    // background-color: $lightGrey;
 }
 
 .default-shadow{
-    box-shadow: 1px 6px 12px 5px #0000006b;
+    box-shadow: 1px 1px 7px 7px rgba(0, 0, 0, 0.2);
 }
 
 .main-banner{
@@ -67,7 +67,7 @@ footer{
 }
 
 .default-scrollbar{
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     &::-webkit-scrollbar {
         width:  7px;

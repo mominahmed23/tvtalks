@@ -1,6 +1,5 @@
 .cards-wrap{
-    height: 380px;
-
+     min-height: 400px;
 }
 .movie-card{
     background-color: $lightGrey;
@@ -10,6 +9,9 @@
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat; 
+    }
+    .movie-title-wrap{
+        height: 50px;
     }
     .movie-title{
         font-size: $fontLg;

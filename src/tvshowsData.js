@@ -1,7 +1,8 @@
 export const data = [
+   
     {
         id: 0,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://image.posterlounge.com/images/l/1885609.jpg",
         title:"Peaky Blinders",
         runStart : 2010,
         runEnd: null,
@@ -34,11 +35,11 @@ export const data = [
     },
     {
         id: 4,
-        image:"https://i.pinimg.com/originals/34/ac/07/34ac07f6800242f9d3f24e53c179cb9c.jpg",
-        title:"The 100",
-        runStart : 2014,
+        image: "https://lh3.googleusercontent.com/proxy/cPPXcmrJ11suY8i05Hr0N275VA-6o-yrCYwit1mviHL1VLssswOstK7GZUhiBMCBlMkbIupjnTEWh4QmnDk6Ja2ZuX_rdqly",
+        title:"The Boys",
+        runStart : 2019,
         runEnd: null,
-        rating: 74
+        rating: 98
     },
     {
         id: 5,
@@ -162,7 +163,7 @@ export const data = [
     },
     {
         id: 20,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://cdn.shopify.com/s/files/1/0747/3829/products/mL0812_1325831a-39b1-42e1-bd85-7c325ec3c6f3.jpg?v=1571445240",
         title:"The Left Overs",
         runStart : 2014,
         runEnd: 2017,
@@ -170,7 +171,7 @@ export const data = [
     },
     {
         id: 21,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://i.pinimg.com/originals/88/43/1a/88431a9ed1430dd5359e13002b24c824.jpg",
         title:"You",
         runStart : 2016,
         runEnd: 2020,
@@ -178,7 +179,7 @@ export const data = [
     },
     {
         id: 22,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://bestmoviecast.com/wp-content/uploads/2019/08/Succession.jpg",
         title:"Succession",
         runStart : 2018,
         runEnd: 2020,
@@ -186,7 +187,7 @@ export const data = [
     },
     {
         id: 23,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://i.pinimg.com/originals/d0/75/9a/d0759a9d49e9436662356c8b8e44d080.jpg",
         title:"Glow",
         runStart : 2017,
         runEnd: null,
@@ -194,7 +195,7 @@ export const data = [
     },
     {
         id: 24,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://cnet4.cbsistatic.com/img/TtdIW1IEeyZwM7TXS5u_ingWLus=/2020/03/30/1121e695-82c8-4be9-b3f1-d4932c956b56/twitter-in-stream-wide-tiger-king-netflix-1.jpg",
         title:"Tiger King",
         runStart : 2020,
         runEnd: null,
@@ -202,7 +203,7 @@ export const data = [
     },
     {
         id: 25,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://m.media-amazon.com/images/M/MV5BMTUwMGM2ZmYtZGEyZC00OWQyLWI2Y2QtMTdjYzMxZGJmNjhjXkEyXkFqcGdeQXVyNjU2ODM5MjU@._V1_.jpg",
         title:"True Detective",
         runStart : 2014,
         runEnd: null,
@@ -210,7 +211,7 @@ export const data = [
     },
     {
         id: 26,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://i.pinimg.com/originals/d4/15/ab/d415ab1f1409a5fe61cd0b745443b2b6.jpg",
         title:"The Americans",
         runStart : 2013,
         runEnd: 2018,
@@ -218,7 +219,7 @@ export const data = [
     },
     {
         id: 27,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://cdn.europosters.eu/image/750/posters/sherlock-series-4-iconic-i33910.jpg",
         title:"Sherlock",
         runStart : 2010,
         runEnd: null,
@@ -226,7 +227,7 @@ export const data = [
     },
     {
         id: 28,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://cdn.europosters.eu/image/750/posters/outlander-reach-i85382.jpg",
         title:"Outlander",
         runStart : 2014,
         runEnd: null,
@@ -234,7 +235,7 @@ export const data = [
     },
     {
         id: 29,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://image.tmdb.org/t/p/original/qs3GKCzVeqsft6F4jRTLjIVqBeX.jpg",
         title:"Unbelievable",
         runStart : 2019,
         runEnd: null,
@@ -242,12 +243,45 @@ export const data = [
     },
     {
         id: 30,
-        image:"https://i.pinimg.com/originals/d4/65/2d/d4652d0351fd059977785a8f7a14e400.jpg",
+        image:"https://cdn.europosters.eu/image/750/posters/doctor-who-new-dawn-i58006.jpg",
         title:"Doctor Who",
         runStart : 2005,
         runEnd: null,
         rating: 87
     },
+    {
+        id: 31,
+        image:"https://i.pinimg.com/originals/34/ac/07/34ac07f6800242f9d3f24e53c179cb9c.jpg",
+        title:"The 100",
+        runStart : 2014,
+        runEnd: null,
+        rating: 74
+    },
+    {
+        id: 32,
+        image:"https://cdn.europosters.eu/image/750/posters/friends-characters-i86753.jpg",
+        title:"Friends",
+        runStart : 1994,
+        runEnd: 2004,
+        rating: 78
+        
+    },
+    {
+        id: 33,
+        image:"https://mypostercollection.com/wp-content/uploads/2018/04/HIMYM-poster.jpg",
+        title:"How I Met Your Mother",
+        runStart : 2005,
+        runEnd: 2014,
+        rating: 65
+    },
+    {
+        id: 34,
+        image:"https://images-na.ssl-images-amazon.com/images/I/51E-aMp4aRL.jpg",
+        title:"Lost",
+        runStart : 2004,
+        runEnd: 2010,
+        rating: 83
+    }
 
 
 ];
