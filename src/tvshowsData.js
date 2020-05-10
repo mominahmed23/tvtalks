@@ -35,7 +35,7 @@ export const data = [
     },
     {
         id: 4,
-        image: "https://lh3.googleusercontent.com/proxy/cPPXcmrJ11suY8i05Hr0N275VA-6o-yrCYwit1mviHL1VLssswOstK7GZUhiBMCBlMkbIupjnTEWh4QmnDk6Ja2ZuX_rdqly",
+        image: "https://specials-images.forbesimg.com/imageserve/5d30f849eab9270008f9c359/960x0.jpg",
         title:"The Boys",
         runStart : 2019,
         runEnd: null,
