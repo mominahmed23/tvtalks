@@ -6,10 +6,18 @@
     background-color: $superWhite;
     color: $defaultGreen;   
 }
-.btn{
+.default-btn{
     font-size: $fontMd;
     padding: 4px 15px;
     &:hover{
         background-color: $defaultGrey;
+    }
+}
+
+.btn-rate{
+    border: 2px solid $defaultYellow;
+    color: $mattBlack;
+    &:hover{
+        background-color: $defaultYellow;
     }
 }

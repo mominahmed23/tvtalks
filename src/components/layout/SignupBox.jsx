@@ -3,14 +3,14 @@ import { useState } from 'react'
 import Axios from 'axios';
 import { LoginContext } from '../../App';
 
-function LoginBox () {
+function SignupBox () {
   const loginContext = useContext(LoginContext);
   
   const [credentials, setCreadentials] = useState({username:'', password:''});
-     const callLogin = () =>{
+     const callSignup = () =>{
         
         Axios
-          .post("http://localhost:5000/users/login", credentials)
+          .post("http://localhost:5000/users/signup", credentials)
           .then(res => {
               localStorage.setItem("token", res.data.token);
               localStorage.setItem("name", res.data.name);
@@ -21,15 +21,15 @@ function LoginBox () {
      };
      
         return (
-            <div className="login-box p-4">
+            <div className="signup-box p-4 mt-4">
                  <input onChange={e=>{setCreadentials({...credentials, username:e.target.value})}} type="text" placeholder="username" className="form-control radius-none mb-3" required />
                  <input onChange={e=>{setCreadentials({...credentials, password:e.target.value})}} type="password" placeholder="password" className="form-control radius-none" required />
                  <div className="d-flex justify-content-between align-items-center mt-3">
-                     <button onClick={callLogin} className="btn default-btn btn-login-inverse default-radius font-size-sm">Log in</button>
+                     <button onClick={callSignup} className="btn default-btn btn-login-inverse default-radius font-size-sm">sign up</button>
                  </div>
             </div>
         )
     
 }
 
-export default LoginBox
+export default SignupBox

@@ -27,10 +27,22 @@
             font-size: $fontMd;
             color: $mattBlack;
         }
-        .rating-badge{
-            background-color: $defaultGreen;
-            color: $superWhite;
-            font-size: $fontMd;
-        }
+      
+    }
+    .rating-badge{
+        display: inline-block;
+        background-color: $defaultGreen;
+        color: $superWhite;
+        font-size: $fontMd;
+    }
+    .rating-badge-user{
+        display: inline-block;
+        background-color: $defaultYellow;
+        color: $shinyBlack;
+        font-size: $fontMd;
+    }
+    .range-value{
+        color: $defaultBlue;
+        font-weight: bold;
     }
 }
